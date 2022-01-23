@@ -22,11 +22,11 @@ function App() {
   const isError = mealStatus === "failed";
   const dispatch = useDispatch();
 
-  const showCartHandler = () => {
-    dispatch(showCart());
-  };
   const hideCartHandler = () => {
     dispatch(hideCart());
+  };
+  const showCartHandler = () => {
+    dispatch(showCart());
   };
 
   return (
